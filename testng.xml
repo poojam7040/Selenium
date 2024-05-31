@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Features.BatchExecution.Kalki"/>
+      <class name="Features.BatchExecution.Ajio"/>
+      <class name="Features.BatchExecution.Pantaloon"/>
+      <class name="Features.BatchExecution.TataCliq"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -21,8 +21,7 @@ public class AddToCartPom {
 
 	private @FindBy(id="products-pagesize")
 	WebElement productSize ;
-	
-	
+	 	
 	private @FindBy(id="products-viewmode")
 	WebElement productViewMode;
 	
